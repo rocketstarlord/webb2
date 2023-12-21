@@ -1,248 +1,190 @@
-section {
-    top: 0px;
+div.main {
+    height: 100vh;
     width: 100%;
-    height: 100vh;
-    background-position: top center;
-    background-attachment: scroll;
-    background-size: cover;
-    background: center/100% no-repeat url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-}
-
-
-
-.logos {
-    margin-top: 800px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-}
-
-#placeholdersoyoucanscroll {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    /* background-image: linear-gradient(to right, #8360c3, #2ebf91); */
+    background-image: url("https://images.unsplash.com/photo-1700819000398-d1b72be76844?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    top: 0px;
+    left: 0px;
+    position: fixed;
 
 }
 
-.footer-clean {
-    padding: 50px 0;
-    background-color: #fff;
-    color: #4b4c4d;
+
+.side {
+    position: relative;
+    /* float: right; */
+    margin-left: 900px;
+    bottom: 250px;
+
+    height: 200px;
+    width: 200px;
+
 }
 
-.footer-clean h3 {
-    margin-top: 0;
-    margin-bottom: 12px;
-    font-weight: bold;
-    font-size: 16px;
-}
+input {
 
-.footer-clean ul {
-    padding: 0;
-    list-style: none;
-    line-height: 1.6;
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.footer-clean ul a {
-    color: inherit;
-    text-decoration: none;
-    opacity: 0.8;
-}
-
-.footer-clean ul a:hover {
-    opacity: 1;
-}
-
-.footer-clean .item.social {
-    text-align: right;
-}
-
-@media (max-width:767px) {
-    .footer-clean .item {
-        text-align: center;
-        padding-bottom: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .footer-clean .item.social {
-        text-align: center;
-    }
-}
-
-.footer-clean .item.social>a {
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    margin-left: 10px;
-    margin-top: 22px;
-    color: inherit;
-    opacity: 0.75;
-}
-
-.footer-clean .item.social>a:hover {
-    opacity: 0.9;
-}
-
-@media (max-width:991px) {
-    .footer-clean .item.social>a {
-        margin-top: 40px;
-    }
-}
-
-@media (max-width:767px) {
-    .footer-clean .item.social>a {
-        margin-top: 10px;
-    }
-}
-
-.footer-clean .copyright {
-    margin-top: 14px;
-    margin-bottom: 0;
-    font-size: 13px;
-    opacity: 0.6;
-}
-
-.last {
-    width: 500px;
-    height: 500px;
-    background-color: #be5cff;
-}
-
-div.third-image {
-    /* margin-top: 800px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
-    height: 500px;
-    background: center/100% no-repeat url("https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61asvlLfwsL.SL1000.jpg");
-
-    /* background-image: url("https://img.freepik.com/free-photo/open-laptop_144627-12145.jpg?w=826&t=st=1703098375~exp=1703098975~hmac=c51db1c9ecf461691f4d0c68766f7ae7e4c310362d7059435ed33d70393dd702"); */
-}
-
-.first-text h1 {
-    padding-left: 50px;
-    padding-bottom: 250px;
-}
-
-.first-text {
-    height: 700px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.card {
-    margin-top: 50px;
-    height: 500px;
-}
-
-
-.navbar {
     background: transparent;
-    padding: 0px 0px;
+    border: none;
+    border-bottom: 2px solid #3e3e3e;
+    margin-bottom: 100px;
+    outline: none;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 100px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
 
 
 }
 
+.heading {
 
-
-img {
-    margin-top: 0px;
+    backdrop-filter: blur(20px);
 }
 
-nav {
-    border-bottom: 2px solid white;
+.heading h1,
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    -webkit-text-stroke: 1px white;
+
 }
 
-.dropdown {
+h1:nth-of-type(n) {
+    padding: 50px 100px 50px 50px;
+}
+
+.heading {
+    /* background-color: antiquewhite; */
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+
+
+
+button {
     background: none;
-
-}
-
-.btn {
-    background: none;
-    color: rgb(243, 245, 245);
-    border: 2px solid rgb(225, 224, 223);
-    border-radius: 25px;
+    color: white;
+    border: 2px solid rgb(84, 82, 86);
     padding: 1em 2em;
     font-size: 1em;
+    border-radius: 12px;
+    margin-left: 100px;
     /* transition: all 0.25s; */
     transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
 button:hover {
-    border-color: #be5cff;
+    border-color: white;
     color: white;
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
     transform: translatey(-0.25em);
     cursor: pointer;
 }
 
-.navbar-light .navbar-brand {
-    color: white;
-}
 
-h1 {
-    color: white;
-}
 
-.forefront-element {
-    -webkit-transform: translateZ(999px) scale(.7);
-    transform: translateZ(999px) scale(.7);
-    z-index: 1;
-}
 
-.base-element {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    z-index: 4;
-}
 
-.background-element {
-    -webkit-transform: translateZ(-999px) scale(2);
-    transform: translateZ(-999px) scale(2);
-    z-index: 3;
-}
 
-.image2 {
-    top: 0px;
-    width: 100%;
-    height: 100vh;
-    background: center/100% no-repeat url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-
-    background-attachment: scroll;
-    background-size: cover;
+.shadow-pop-tr {
+    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 
+/* ----------------------------------------------
+ * Generated by Animista on 2023-11-29 20:1:18
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
 
+/**
+ * ----------------------------------------
+ * animation shadow-pop-tr
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-pop-tr {
+    0% {
+        -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0);
+    }
 
-.card-img {
-    width: 500px;
-    height: 500px;
+    100% {
+        -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+        box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+        -webkit-transform: translateX(-8px) translateY(8px);
+        transform: translateX(-8px) translateY(8px);
+    }
 }
 
-img.bg,
-html,
-body {
+@keyframes shadow-pop-tr {
+    0% {
+        -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0);
+    }
+
+    100% {
+        -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+        box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+        -webkit-transform: translateX(-8px) translateY(8px);
+        transform: translateX(-8px) translateY(8px);
+    }
+}
 
 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+.tracking-in-expand {
+    -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-11-29 20:9:43
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
